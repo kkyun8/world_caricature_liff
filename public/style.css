@@ -1,20 +1,13 @@
 html {
-    font-size: 11px;
+   font-size: 11px;
 }
 
-table {
-    width: 100%;
-    table-layout: fixed;
-    word-break: break-all;
-}
-
-div {
-    max-width: 100%;
-    text-align: center;
-}
-
-th {
-    text-align: center;
+body {
+   padding: 5px;
+   margin: 0;
+   text-align: center;
+   height: 500px;
+   width: 100%;
 }
 
 table, th, td {
@@ -26,44 +19,35 @@ img {
     height: auto; 
 }
 
-button {
-    margin: 4px;
-}
-
-#code-block {
-    background-color: #eee;
-    border: 1px solid #999;
-    display: block;
-    padding: 20px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    overflow-x: auto;
-    white-space: nowrap;
-}
-
 #profilePictureDiv {
     text-align: center;
 }
 
 #profileImageDiv {
-    height: 100px;
-    width: 100px;
+    height: 10px;
+    width: 10px;
 }
 
 #statusMessage {
-    position: relative;
     top: 40px;
+}
+
+
+.nomal {
+    border: solid 1px;
+    width: 49%;
+    height: 50%;
+    /* box-sizing: border-box; */
+    /* padding: 1px; */
+    margin: 0px 0px 0px 0px;
+    display: inline-block; 
+    /* position: static; */
 }
 
 .textLeft {
     text-align: left;
 }
 
-.buttonGroup {
-    position: relative;
-    top: 20px;
-}
 
 .hidden {
     display: none;

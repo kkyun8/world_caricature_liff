@@ -32,8 +32,8 @@ window.onload = function() {
 */
 function initializeLiffOrDie(myLiffId) {
     if (!myLiffId) {
-        document.getElementById("liffAppContent").classList.add('hidden');
-        document.getElementById("liffIdErrorMessage").classList.remove('hidden');
+        // document.getElementById("liffAppContent").classList.add('hidden');
+        // document.getElementById("liffIdErrorMessage").classList.remove('hidden');
     } else {
         initializeLiff(myLiffId);
     }
@@ -53,8 +53,8 @@ function initializeLiff(myLiffId) {
             initializeApp();
         })
         .catch((err) => {
-            document.getElementById("liffAppContent").classList.add('hidden');
-            document.getElementById("liffInitErrorMessage").classList.remove('hidden');
+            // document.getElementById("liffAppContent").classList.add('hidden');
+            // document.getElementById("liffInitErrorMessage").classList.remove('hidden');
         });
 }
 
