@@ -1,68 +1,62 @@
 html {
-   font-size: 11px;
+  font-size: 11px;
 }
 
 body {
-   padding: 0px;
-   margin: 0;
-   text-align: center;
-   width: 350px;
-   height: 400px;
+  padding: 0px;
+  margin: 0;
+  text-align: center;
+  width: 350px;
+  height: 350px;
 }
 
 table, th, td {
-    border: 1px solid black;
+   border: 1px solid black;
 }
 
 img { 
-    max-width: 25%; 
-    height: auto; 
+   max-width: 25%; 
+   height: auto; 
 }
 
 #profilePictureDiv {
-    text-align: center;
+   text-align: center;
 }
 
 #profileImageDiv {
-    height: 10px;
-    width: 10px;
+   height: 10px;
+   width: 10px;
 }
 
 #statusMessage {
-    top: 40px;
+   top: 40px;
 }
 
 .main-box {
-    border: 1px solid;
-    border-color: transparent;
-    background-color: white;
-    width: 100%;
-    height: 100%;
-    /* box-sizing: border-box; */
-    /* padding: 1px; */
-    margin: 0px 0px 0px 0px;
-    display: inline-block; 
-    padding: 1px;
-    text-align: center;
-    /* position: static; */
+   /* border: 1px solid;
+   border-color: transparent;
+   background-color: white;
+   width: 100%;
+   height: 100%; */
+   /* box-sizing: border-box; */
+   /* padding: 1px; */
+   /* position: static; */
+   text-align: center;
 }
 
 .menu-button {
-  display: inline-block;
-  width: 77px;
-  height: 100px;
-  margin: 1px 1px 1px 1px;
-  padding: 2px;
-  border-radius: 5%;
-  border: 1px solid black;
+ /* display: inline-block; */
+ float: left;
+ width: 50%;
+ height: 50%;
 }
 
 .button-one {
-  background-color:  #f9c00c;
+ background-color:  #f9c00c;
 }
 
 .button-two {
-  background-color:  #00b9f1;
+ background-color:  #00b9f1;
 }
 
 .button-three {
@@ -74,28 +68,28 @@ img {
 }
 
 .circle {
-  display: inline-block; 
-  background-color: aliceblue;
-  border-radius: 50%;
-  width: 45px; 
-  height: 45px;
-  border: 1px solid black;
-  margin: 10px 10px 5px 10px;
+ display: inline-block; 
+ background-color: aliceblue;
+ border-radius: 5%;
+ width: 90px; 
+ height: 45px;
+ border: 1px solid black;
+ margin: 5px 10px 2px 10px;
 }
 .text-box {
-  margin: 0px 5px 0px 5px;
+ margin: 0px 2px 0px 2px;
 }
 
 .text {
-  font-family: "M PLUS Rounded 1c";
-  text-align: center;
-  font-size: small;
-  /* text-shadow: 0 0 5px black; */
-  text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
-  color: white;
+ font-family: "M PLUS Rounded 1c";
+ text-align: center;
+ font-size: small;
+ /* text-shadow: 0 0 5px black; */
+ text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+ color: white;
 }
 
 
 .hidden {
-    display: none;
+   display: none;
 }
