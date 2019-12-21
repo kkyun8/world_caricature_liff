@@ -6,8 +6,8 @@ body {
    padding: 0px;
    margin: 0;
    text-align: center;
-   height: 500px;
-   width: 100%;
+   width: 350px;
+   height: 400px;
 }
 
 table, th, td {
@@ -49,10 +49,10 @@ img {
 
 .menu-button {
   display: inline-block;
-  width: 220px;
-  height: 300px;
+  width: 77px;
+  height: 100px;
   margin: 1px 1px 1px 1px;
-  padding: 20px;
+  padding: 2px;
   border-radius: 5%;
   border: 1px solid black;
 }
@@ -77,18 +77,19 @@ img {
   display: inline-block; 
   background-color: aliceblue;
   border-radius: 50%;
-  width: 170px; 
-  height: 170px;
+  width: 45px; 
+  height: 45px;
   border: 1px solid black;
+  margin: 10px 10px 5px 10px;
 }
 .text-box {
-  margin: 15px 5px 15px 5px;
+  margin: 0px 5px 0px 5px;
 }
 
 .text {
   font-family: "M PLUS Rounded 1c";
   text-align: center;
-  font-size: x-large;
+  font-size: small;
   /* text-shadow: 0 0 5px black; */
   text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
   color: white;
