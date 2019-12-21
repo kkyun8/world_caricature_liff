@@ -48,7 +48,7 @@ img {
  float: left;
  /* border-top: 100px; */
  width: 50%;
- height: 200px;
+ height: 150px;
 }
 
 .button-one {
@@ -76,8 +76,8 @@ img {
  */
  border: 5px double #005f6b; 
  background-color: white; 
- padding: 15px 10px 15px 10px;
- margin: 30px 35px 20px 35px; 
+ padding: 10px 5px 10px 5px;
+ margin: 10px 35px 10px 35px; 
 }
 
 .icon-set {
@@ -92,7 +92,7 @@ img {
  font-family: "M PLUS Rounded 1c";
  text-align: center;
  font-size: large;
- /* text-shadow: 0 0 5px black; */
+ /* text-shadow: 0 0 5px #005f6b;; */
  text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
  color: white;
  padding: 15px 15px 15px 15px;
