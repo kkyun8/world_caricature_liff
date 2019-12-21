@@ -32,11 +32,10 @@ img {
     top: 40px;
 }
 
-
 .main-box {
     border: 1px solid;
     border-color: transparent;
-    background-color:  #4B595D;
+    background-color: white;
     width: 100%;
     height: 100%;
     /* box-sizing: border-box; */
@@ -44,38 +43,55 @@ img {
     margin: 0px 0px 0px 0px;
     display: inline-block; 
     padding: 1px;
+    text-align: center;
     /* position: static; */
 }
 
 .menu-button {
   display: inline-block;
-  width: 10%;
+  width: 220px;
   height: 300px;
   margin: 1px 1px 1px 1px;
-  padding: 5%;
+  padding: 20px;
   border-radius: 5%;
+  border: 1px solid black;
 }
 
 .button-one {
-  background-color:  #C5DFE0;
+  background-color:  #f9c00c;
 }
 
 .button-two {
-  background-color:  #EDECF0;
+  background-color:  #00b9f1;
 }
 
 .button-three {
-  background-color:  #F1E4E5;
+  background-color:  #7200da;
 }
 
 .button-four {
-  background-color:  #76B7B5;
+  background-color:  #f9320c;
+}
+
+.circle {
+  display: inline-block; 
+  background-color: aliceblue;
+  border-radius: 50%;
+  width: 170px; 
+  height: 170px;
+  border: 1px solid black;
+}
+.text-box {
+  margin: 15px 5px 15px 5px;
 }
 
 .text {
+  font-family: "M PLUS Rounded 1c";
   text-align: center;
-  color: white;
   font-size: x-large;
+  /* text-shadow: 0 0 5px black; */
+  text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+  color: white;
 }
 
 
