@@ -104,21 +104,21 @@ function displayIsInClientInfo() {
 */
 function registerButtonHandlers() {
     // openWindow call
-    document.getElementById('openWindowButton').addEventListener('click', function() {
-        liff.openWindow({
-            url: 'https://line.me',
-            external: true
-        });
-    });
+    // document.getElementById('openWindowButton').addEventListener('click', function() {
+    //     liff.openWindow({
+    //         url: 'https://line.me',
+    //         external: true
+    //     });
+    // });
 
     // closeWindow call
-    document.getElementById('closeWindowButton').addEventListener('click', function() {
-        if (!liff.isInClient()) {
-            sendAlertIfNotInClient();
-        } else {
-            liff.closeWindow();
-        }
-    });
+    // document.getElementById('closeWindowButton').addEventListener('click', function() {
+    //     if (!liff.isInClient()) {
+    //         sendAlertIfNotInClient();
+    //     } else {
+    //         liff.closeWindow();
+    //     }
+    // });
 
     // sendMessages call
     document.getElementById('sendMessageButton').addEventListener('click', function() {
@@ -137,20 +137,20 @@ function registerButtonHandlers() {
     });
 
     // scanCode call
-    document.getElementById('scanQrCodeButton').addEventListener('click', function() {
-        if (!liff.isInClient()) {
-            sendAlertIfNotInClient();
-        } else {
-            liff.scanCode().then(result => {
-                // e.g. result = { value: "Hello LIFF app!" }
-                const stringifiedResult = JSON.stringify(result);
-                document.getElementById('scanQrField').textContent = stringifiedResult;
-                toggleQrCodeReader();
-            }).catch(err => {
-                document.getElementById('scanQrField').textContent = "scanCode failed!";
-            });
-        }
-    });
+    // document.getElementById('scanQrCodeButton').addEventListener('click', function() {
+    //     if (!liff.isInClient()) {
+    //         sendAlertIfNotInClient();
+    //     } else {
+    //         liff.scanCode().then(result => {
+    //             // e.g. result = { value: "Hello LIFF app!" }
+    //             const stringifiedResult = JSON.stringify(result);
+    //             document.getElementById('scanQrField').textContent = stringifiedResult;
+    //             toggleQrCodeReader();
+    //         }).catch(err => {
+    //             document.getElementById('scanQrField').textContent = "scanCode failed!";
+    //         });
+    //     }
+    // });
 
     // get access token
     document.getElementById('getAccessToken').addEventListener('click', function() {

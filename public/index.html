@@ -82,8 +82,19 @@
         </tr>
       </table>
     </div>
-    <button id="liffLoginButton">Log in</button>
-    <button id="sendMessageButton">Send Message</button>
+    <div id="liffData">
+      <h2 id="liffDataHeader" class="textLeft">ユーザの接続情報</h2>
+      <div>[OS]:<span id="deviceOS" class="textLeft"></span>
+        [Language]:<span id="browserLanguage" class="textLeft"></span>
+        [isInClient]:<span id="isInClient" class="textLeft"></span>
+        [isLoggedIn]:<span id="isLoggedIn"></span>
+        [LIFF SDK Version]:<span id="sdkVersion"></span></div>
+    </div>
+    <div id="isInClientMessage"></div>
+<button id="sendMessageButton">Send Message</button>
+<button id="getAccessToken">Get Access Token</button>
+<button id="liffLoginButton">Log in</button>
+<button id="liffLogoutButton">Log out</button>
   <!-- <button id="openWindowButton">TEST-Open External Window</button>
                   <button id="closeWindowButton">Close LIFF App</button>
                   <button id="scanQrCodeButton">Open QR Code Reader</button>
