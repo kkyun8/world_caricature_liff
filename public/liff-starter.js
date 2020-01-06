@@ -1,7 +1,7 @@
 window.onload = function() {
     // require('dotenv').config();
-    const useNodeJS = true;   // if you are not using a node server, set this value to false
-    const defaultLiffId = "";
+    const useNodeJS = false;   // if you are not using a node server, set this value to false
+    const defaultLiffId = "653636038-PXvldDNv"; 
     // change the default LIFF value if you are not using a node server
 
     // DO NOT CHANGE THIS
