@@ -1,7 +1,7 @@
 window.onload = function() {
     // require('dotenv').config();
     const useNodeJS = false;   // if you are not using a node server, set this value to false
-    const defaultLiffId = "653636038-PXvldDNv"; 
+    const defaultLiffId = "1653636038-PXvldDNv"; 
     // change the default LIFF value if you are not using a node server
 
     // DO NOT CHANGE THIS
@@ -189,8 +189,12 @@ function registerButtonHandlers() {
     // login call, only when external browser is used
     document.getElementById('liffLoginButton').addEventListener('click', function() {
         if (!liff.isLoggedIn()) {
-            // set `redirectUri` to redirect the user to a URL other than the front page of your LIFF app.
-            liff.login();
+          liff.login();
+          /*
+            liff.login({
+              redirectUri: "https://localhost:5000" 
+            });
+          */
         }
     });
 
